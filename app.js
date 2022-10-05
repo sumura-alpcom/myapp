@@ -4,7 +4,7 @@ const port = 3000;
 
 app.get("/", (req, res) => {
   console.log("Get request is called");
-  res.send("Hello World 3!");
+  res.send("Hello World pipe!");
 });
 
 app.listen(port, () => {
